@@ -11,7 +11,7 @@
     .menu-toggle { display:none; font-size:24px; cursor:pointer; }
 
     /* Hero Section */
-    .hero { height: 90vh; padding-top:80px; background: linear-gradient(to right, #ff9933, #ffffff, #138808); display:flex; justify-content:center; align-items:center; text-align:center; color:#002147; flex-direction:column; }
+    .hero { height: 95.5vh; padding-top:80px; background: linear-gradient(to right, #ff9933, #ffffff, #138808); display:flex; justify-content:center; align-items:center; text-align:center; color:#002147; flex-direction:column; }
     .hero h1 { font-size:2.5rem; margin-bottom:20px; font-weight:bold; }
     .hero .cta-buttons { display:flex; gap:20px; flex-wrap:wrap; justify-content:center; }
     .hero .cta-buttons button { padding:15px 30px; font-size:1rem; font-weight:bold; border:none; border-radius:25px; cursor:pointer; transition:all 0.3s; }
@@ -19,8 +19,9 @@
     .hero .cta-buttons .vprf { background:#138808; color:#fff; }
     .hero .cta-buttons .seva { background:#fff; color:#138808; border:2px solid #138808; }
     .hero .cta-buttons button:hover { transform:scale(1.05); opacity:0.9; box-shadow:0px 4px 15px rgba(0,0,0,0.2); }
-/*for abouts and intitatives*/
-.card {
+
+    /* for abouts and intitatives */
+/* .card {
   border-radius: 10px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -28,7 +29,7 @@
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
+} */
 
 
     /* Modules Section */
@@ -151,6 +152,7 @@ footer {
 
 
 /* ✅ Center Alignment for Smaller Screens */
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
